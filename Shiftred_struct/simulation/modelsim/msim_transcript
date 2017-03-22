@@ -1,0 +1,52 @@
+# Reading K:/programfiles/modelsim_ase/tcl/vsim/pref.tcl 
+# do shift_reg_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying K:\programfiles\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied K:\programfiles\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+K:/Verilog\ Projects/Shiftred_struct {K:/Verilog Projects/Shiftred_struct/shift_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module D_FF
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	shift_reg
+# 
+#  
+vsim work.shift_reg
+# vsim work.shift_reg 
+# Loading work.shift_reg
+# Loading work.D_FF
+# ** Warning: (vsim-3017) K:/Verilog Projects/Shiftred_struct/shift_reg.v(34): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /shift_reg/ff1
+# ** Warning: (vsim-3017) K:/Verilog Projects/Shiftred_struct/shift_reg.v(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /shift_reg/ff2
+# ** Warning: (vsim-3017) K:/Verilog Projects/Shiftred_struct/shift_reg.v(36): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /shift_reg/ff3
+# ** Warning: (vsim-3017) K:/Verilog Projects/Shiftred_struct/shift_reg.v(37): [TFMPC] - Too few port connections. Expected 5, found 4.
+#         Region: /shift_reg/ff4
+add wave  \
+sim:/shift_reg/CLK \
+sim:/shift_reg/Data \
+sim:/shift_reg/Q1 \
+sim:/shift_reg/Q2 \
+sim:/shift_reg/Q3 \
+sim:/shift_reg/Qout \
+sim:/shift_reg/RESET
+force -freeze sim:/shift_reg/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/shift_reg/Data 1 0, 0 {37 ps} -r 75
+force -freeze sim:/shift_reg/RESET 0 0
+run
+run
+run
+run
+run
+run
+run
+run

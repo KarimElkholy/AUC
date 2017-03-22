@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, K:/Verilog Projects/Shiftred_struct/shift_reg.v
+source_file = 1, K:/Verilog Projects/Shiftred_struct/db/shift_reg.cbx.xml
+design_name = shift_reg
+instance = comp, \Qout~output , Qout~output, shift_reg, 1
+instance = comp, \CLK~input , CLK~input, shift_reg, 1
+instance = comp, \CLK~inputclkctrl , CLK~inputclkctrl, shift_reg, 1
+instance = comp, \RESET~input , RESET~input, shift_reg, 1
+instance = comp, \Data~input , Data~input, shift_reg, 1
+instance = comp, \ff1|Q~0 , ff1|Q~0, shift_reg, 1
+instance = comp, \ff1|Q , ff1|Q, shift_reg, 1
+instance = comp, \ff2|Q~0 , ff2|Q~0, shift_reg, 1
+instance = comp, \ff2|Q , ff2|Q, shift_reg, 1
+instance = comp, \ff3|Q~0 , ff3|Q~0, shift_reg, 1
+instance = comp, \ff3|Q , ff3|Q, shift_reg, 1
+instance = comp, \ff4|Q~0 , ff4|Q~0, shift_reg, 1
+instance = comp, \ff4|Q , ff4|Q, shift_reg, 1

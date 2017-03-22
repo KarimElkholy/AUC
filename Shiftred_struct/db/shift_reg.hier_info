@@ -1,0 +1,44 @@
+|shift_reg
+Data => Data.IN1
+CLK => CLK.IN4
+RESET => RESET.IN4
+OP => ~NO_FANOUT~
+ll_in[0] => ~NO_FANOUT~
+ll_in[1] => ~NO_FANOUT~
+ll_in[2] => ~NO_FANOUT~
+ll_in[3] => ~NO_FANOUT~
+ll_out[0] <= <GND>
+ll_out[1] <= <GND>
+ll_out[2] <= <GND>
+ll_out[3] <= <GND>
+Qout <= D_FF:ff4.port3
+
+
+|shift_reg|D_FF:ff1
+D => Q.DATAA
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_reg|D_FF:ff2
+D => Q.DATAA
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_reg|D_FF:ff3
+D => Q.DATAA
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|shift_reg|D_FF:ff4
+D => Q.DATAA
+CLK => Q~reg0.CLK
+RESET => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

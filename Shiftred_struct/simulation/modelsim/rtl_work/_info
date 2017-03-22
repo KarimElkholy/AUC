@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dK:\Verilog Projects\Shiftred_struct\simulation\modelsim
+vD_FF
+!s100 D5E?TjJY0cA3N0CUHl?o?3
+I6V3Cb_cE4T]QIdDK=;G?11
+V3hP?@o:oW5nUJ]^WClUU_2
+Z1 dK:\Verilog Projects\Shiftred_struct\simulation\modelsim
+Z2 w1489852291
+Z3 8K:/Verilog Projects/Shiftred_struct/shift_reg.v
+Z4 FK:/Verilog Projects/Shiftred_struct/shift_reg.v
+L0 3
+Z5 OV;L;10.0d;49
+r1
+!s85 0
+31
+Z6 !s108 1489852363.902000
+Z7 !s107 K:/Verilog Projects/Shiftred_struct/shift_reg.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+K:/Verilog Projects/Shiftred_struct|K:/Verilog Projects/Shiftred_struct/shift_reg.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+K:/Verilog Projects/Shiftred_struct} -O0
+n@d_@f@f
+vshift_reg
+!s100 oWeKca@0J@Q^6hSFWnh4=0
+I=Rm10n<7K5d1>I3a9c?3e3
+V:mXiE9b^LPX`JbV>[U[W[1
+R1
+R2
+R3
+R4
+L0 26
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
